@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>test cite</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__top-content">
+                        <div class="header__menu-social">
+                            <div class="header__menu-social_item">
+                                <img src="image/contacts/facebook.png" width="15" height="15" alt="">
+                                <span class="header__menu-social_text">לאתרים</span>
+                            </div>
+                            <div class="header__menu-social_item">
+                                <img src="image/contacts/in.png" width="15" height="15" alt="">
+                                <span class="header__menu-social_text">פשרויו</span>
+                            </div>
+                            <div class="header__menu-social_item">
+                                <img src="image/contacts/youtube.png" width="15" height="15" alt="">
+                                <span class="header__menu-social_text">מוד</span>
+                            </div>
+                        </div>
+                        <ul class="header__menu">
+                            <li class="header__menu-item">אפשרויות</li>
+                            <li class="header__menu-item">ועמו</li>
+                        </ul>
+                        <form class="header__form" action="index.html" method="post">
+                            <button class="header__button" type="button" name="button">דוגמאות</button>
+                            <button class="header__button" type="button" name="button">עמוד</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="container">
+                    <div class="header__bottom-content">
+                        <a href="#"><img src="image/header/logo.png" alt=""></a>
+                        <ul class="main-menu">
+                            <li class="main-menu__item"><a href="#">ביותר</a></li>
+                            <li class="main-menu__item"><a href="#">תבנית</a></li>
+                            <li class="main-menu__item"><a href="#">המוני</a></li>
+                            <li class="main-menu__item"><a href="#">ותמיכה</a></li>
+                            <li class="main-menu__item"><a href="#">ועמוד</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="main-menu-mobile_container"> <!-- мобильное меню -->
+                <div class="topnav">
+                    <a href="#"><img src="image/header/logo.png" width="90" height="50" alt=""></a>
+                    <ul class="main-menu-mobile" id="myLinks">
+                        <li class="main-menu__item"><a href="#">ביותר</a></li>
+                        <li class="main-menu__item"><a href="#">תבנית ה</a></li>
+                        <li class="main-menu__item"><a href="#">המוני</a></li>
+                        <li class="main-menu__item"><a href="#">ותמיכה</a></li>
+                        <li class="main-menu__item"><a href="#">ועמוד</a></li>
+                    </ul>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+            <script>
+                function myFunction() {
+                  var x = document.getElementById("myLinks");
+                  if (x.style.display === "block") {
+                    x.style.display = "none";
+                  } else {
+                    x.style.display = "block";
+                  }
+                }
+            </script>
+        </header>
+        <div class="main-block">
+            <div class="container">
+                <div class="main-block__content">
+                    <img src="image/main_block/pc.png" alt="">
+                    <div class="main-block__text">
+                        <h1>תבנית Avada</h1>
+                        <p>תבנית ה- WordPress הנמכרת ביותר בעולם. מתאימה לכל סוגי האתרים בעולם, בעלת מראה מודרני נקי ולבן, עם המוני אפשרויות לכל עמוד ועמוד, ותמיכה מלאה בעברית.</p>
+                        <a href="#"><div class="main-block__text_item">
+                            <p>תכולת התבנ</p>
+                            <img src="image/main_block/circ_arrow.png" width="20" height="20" alt="">
+                        </div></a>
+                        <button class="main-block__button" type="button" name="button">התחילו עם התבנית</button>
+                        <div class="main-block__text_item2">
+                            <a href="#"><img src="image/main_block/circ_arrow_orange.png" width="24" height="24" alt=""></a>
+                            <a href="#">צריכים עזרה עם התבנית? אנחנו נבנה לכם אתר</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-block_mobile"> <!-- мобильная версия главного экрана -->
+            <div class="container">
+                <div class="main-block_content">
+                    <p>תבניות לאתר רספונ</p>
+                    <p>החל מ-</p>
+                    <div class="main-block_content_num">
+                        <p>15</p>
+                        <p>לחודש</p>
+                    </div>
+                    <p>לכל התבניות</p>
+                    <div class="main-block_content_img">
+                        <a href="#"><img src="image/main_block/arrow_mobile.png" width="20" height="20" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-block">
+            <div class="container">
+                <div class="portfolio-block__text">
+                    <p>אתרים שמשתמשים בתבנית</p>
+                    <p>כמה דוגמאות לאתרים של לקוחות שהשתמשו בתבנית זו</p>
+                </div>
+                <ul class="portfolio-block__img">
+                    <li><a href="#"><img src="image/portfolio_block/1.png" alt=""></a></li>
+                    <li><a href="#"><img src="image/portfolio_block/2.png" alt=""></a></li>
+                    <li><a href="#"><img src="image/portfolio_block/3.png" alt=""></a></li>
+                    <li><a href="#"><img src="image/portfolio_block/4.png" alt=""></a></li>
+                    <li><a href="#"><img src="image/portfolio_block/5.png" alt=""></a></li>
+                    <li><a href="#"><img src="image/portfolio_block/6.png" alt=""></a></li>
+                    <li><a href="#"><img src="image/portfolio_block/7.png" alt=""></a></li>
+                    <li><a href="#"><img src="image/portfolio_block/8.png" alt=""></a></li>
+                    <li><a href="#"><img src="image/portfolio_block/9.png" alt=""></a></li>
+                    <li><a href="#"><img src="image/portfolio_block/10.png" alt=""></a></li>
+                    <li><a href="#"><img src="image/portfolio_block/11.png" alt=""></a></li>
+                    <li><a href="#"><img src="image/portfolio_block/12.png" alt=""></a></li>
+                    <li><a href="#"><img src="image/portfolio_block/13.png" alt=""></a></li>
+                    <li><a href="#"><img src="image/portfolio_block/14.png" alt=""></a></li>
+                    <li><a href="#"><img src="image/portfolio_block/15.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="reviews-block">
+            <div class="container">
+                 <div class="reviews-block__text">
+                    <p>אפשרויות לכל עמוד ועמוד</p>
+                    <p>כמה דוגמאות לאתרים של לקוחות שהשתמשו בתבנית זו</p>
+                 </div>
+                 <div class="reviews-block__reviews-boxes">
+                     <div class="reviews-block__reviews-box">
+                        <img src="image/reviews/facebook.png" width="50" height="50" alt="">
+                        <p>אפשרויות</p>
+                        <p>עמוד ועמועמוד ועמועמוד ו</p>
+                        <div class="reviews-block__reviews-box_box-text">
+                            <p>כמה דוגמאות לאתר </p>
+                            <a href="#"><img src="image/reviews/circ_arrow_orange.png" width="20" height="20" alt=""></a>
+                        </div>
+                     </div>
+                     <div class="reviews-block__reviews-box">
+                        <img src="image/reviews/yt.png" width="50" height="50" alt="">
+                        <p>אפשרויות</p>
+                        <p>עמוד ועמועמוד ועמועמוד ו</p>
+                        <div class="reviews-block__reviews-box_box-text">
+                            <p>כמה דוגמאות לאתר</p>
+                            <a href="#"><img src="image/reviews/circ_arrow_orange.png" width="20" height="20" alt=""></a>
+                        </div>
+                     </div>
+                     <div class="reviews-block__reviews-box">
+                        <img src="image/reviews/wa.png" width="50" height="50" alt="">
+                        <p>אפשרויות</p>
+                        <p>עמוד ועמועמוד ועמועמוד ו</p>
+                        <div class="reviews-block__reviews-box_box-text">
+                            <p>כמה דוגמאות לאתר</p>
+                            <a href="#"><img src="image/reviews/circ_arrow_orange.png" width="20" height="20" alt=""></a>
+                        </div>
+                     </div>
+                 </div>
+            </div>
+        </div>
+        <div class="contacts-block">
+            <div class="container">
+                <div class="contacts-block__boxes">
+                    <div class="contacts-block__box-form">
+                        <span class="contacts-block__p">שמשתמשים</span>
+                        <ul class="contacts-block__social">
+                            <li><a href="#"><img src="image/contacts/g.png" width="30" height="30" alt=""></a></li>
+                            <li><a href="#"><img src="image/contacts/facebook.png" width="30" height="30" alt=""></a></li>
+                            <li><a href="#"><img src="image/contacts/in.png" width="30" height="30" alt=""></a></li>
+                            <li><a href="#"><img src="image/contacts/youtube.png" width="30" height="30" alt=""></a></li>
+                        </ul>
+                        <span class="contacts-block__p">שמשתמשים</span>
+                        <p class="contacts-block__text">אפשרויות לכל עמוד ועמואפשרויות ל</p>
+                        <form class="contacts-form" action="index.html" method="post">
+                            <input class="contacts-form__input" type="text" name="contact" placeholder="אפשרויות לכל עמו">
+                            <button class="contacts-form__button" type="button" name="button">השתמשו</button>
+                        </form>
+                    </div>
+                    <div class="contacts-block__boxes-contact">
+                        <div class="contacts-block__box">
+                            <span class="contacts-block__p">שמשתמשים</span>
+                            <a href="#"><p>עמוד ועמוד</p></a>
+                            <a href="#"><p>עמוד ועמוד</p></a>
+                        </div>
+                        <div class="contacts-block__box">
+                            <span class="contacts-block__p">שמשתמשים</span>
+                            <a href="#"><p>עמוד ועמוד</p></a>
+                            <a href="#"><p>עמוד ועמוד</p></a>
+                            <a href="#"><p>עמוד ועמוד</p></a>
+                            <a href="#"><p>עמוד ועמוד</p></a>
+                        </div>
+                        <div class="contacts-block__box">
+                            <span class="contacts-block__p">שמשתמשים</span>
+                            <a href="#"><p>עמוד ועמוד</p></a>
+                            <a href="#"><p>עמוד ועמוד</p></a>
+                            <a href="#"><p>עמוד ועמוד</p></a>
+                            <a href="#"><p>עמוד ועמוד</p></a>
+                            <a href="#"><p>עמוד ועמוד</p></a>
+                            <a href="#"><p>עמוד ועמוד</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="phone-block">
+            <div class="container">
+                <p>03-3355-4645645-4564534</p>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <img src="image/footer/footer.png" alt="">
+            </div>
+        </footer>
+    </body>
+</html>

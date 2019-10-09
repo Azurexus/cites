@@ -1,0 +1,159 @@
+@media screen and (max-width: 1000px) {
+    .main-block__content {
+        display: flex;
+        padding: 26px 0 25px;
+        justify-content: center;
+    }
+    .main-block__text {
+        text-align: center;
+    }
+    .main-menu__item > a {
+        padding: 10px 25px;
+    }
+    .main-menu__item > a:hover {
+        padding: 10px 25px;
+    }
+    .main-block__content > img {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+    .portfolio-block__text {
+        text-align: center;
+    }
+    .main-block__text_item2 img {
+    position: absolute;
+    bottom: 0;
+    left: 4%;
+}
+@media screen and (max-width: 814px) {
+    .header__top {
+        display: none;
+    }
+
+}
+@media screen and (max-width: 660px) {
+    .reviews-block {
+        display: none;
+    }
+    .main-menu__item > a {
+        padding: 10px 10px;
+    }
+    .main-menu__item > a:hover {
+        padding: 10px 10px;
+    }
+    .contacts-block__boxes-contact {
+        display: none;
+    }
+    .contacts-block__boxes {
+        justify-content: center;
+    }
+    .contacts-block__box-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .contacts-block__social {
+        margin: 15px 0 0px;
+    }
+    .contacts-block__text {
+        margin: 4px 0 15px;
+    }
+    .contacts-form {
+        display: flex;
+        justify-content: center;
+    }
+    .contacts-form__input {
+        width: 170px;
+    }
+    .contacts-form__button {
+        position: relative;
+    }
+    .contacts-block__social {
+    	display: flex;
+    	width: 100%;
+    	justify-content: space-between;
+    	margin: 15px 0 32px;
+    	padding: 0;
+    	list-style: none;
+    }
+    .contacts-block__social img {
+        width: 45px;
+        height: 45px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .header__bottom {
+        display: none;
+    }
+    .main-menu-mobile_container {
+        display: block;
+    }
+}
+@media screen and (max-width: 320px) {
+    .header__bottom {
+        display: none;
+    }
+    .container {
+        max-width: 280px;
+    }
+    .main-menu-mobile_container {
+        display: block;
+    }
+    .header__top {
+        display: none;
+    }
+
+    .main-menu {
+        display: none;
+    }
+    .main-block__content {
+        display: none;
+    }
+    .main-block_mobile {
+        display: flex;
+        width: 100%;
+    }
+    .main-block_content-mobile {
+        display: block;
+    }
+    .portfolio-block__text {
+        text-align: inherit;
+    }
+    .portfolio-block__text p:nth-child(1) {
+        font-size: 36px;
+        color: rgb(51, 51, 51);
+        padding-top: 11px;
+    }
+    .portfolio-block__img img {
+        padding: 0;
+        transform: none;
+        width: 280px;
+    }
+
+    .portfolio-block__img img:hover {
+        transform: none;
+    }
+    .reviews-block {
+        display: none;
+    }
+    .footer {
+        display: none;
+    }
+    .contacts-block__boxes-contact {
+        display: none;
+    }
+    .contacts-form__input {
+        width: 190px;
+    }
+    .contacts-form__button {
+        width: 75px;
+    }
+
+    .contacts-block__social img:nth-child(4) {
+        margin-right: 10px;
+    }
+}
