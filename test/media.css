@@ -20,6 +20,11 @@
     .footer {
         display: none;
     }
+    .footer-mobile {
+        display: flex;
+        justify-content: center;
+        background: #fff;
+    }
     .portfolio-block__text {
         text-align: center;
     }
